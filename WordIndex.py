@@ -13,7 +13,7 @@ def main():
 
     for line in textFile:
       lineNum = lineNum + 1
-      splitwords = line.replace("—" , " ")
+      splitwords = line.replace("—" , " ") #separating words that are combined by "—"
       wordList = splitwords.split()
       for w in wordList:
         w = w.lower()
